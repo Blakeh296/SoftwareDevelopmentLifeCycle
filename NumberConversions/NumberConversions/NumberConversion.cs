@@ -40,50 +40,82 @@ namespace NumberConversions
 
         public static string IntegerToRoman(int integer)
         {
-            string outPutString = " ";
-            while (integer / 1000 >= 1)
-            {
-                integer = integer - 1000;
-                outPutString = outPutString + "M";
-            }
+            int inputValue = integer;
+            string OutputValue = "";
 
-            while (integer / 500 >= 1)
+            while (inputValue / 1000 != 0)
             {
-                integer = integer - 500;
-                outPutString = outPutString + "D";
+                inputValue = (inputValue - 1000);
+                OutputValue = (OutputValue + "M");
             }
-
-            while (integer / 100 >= 1)
+            while (inputValue / 900 != 0)
             {
-                integer = integer - 100;
-                outPutString = outPutString + "C";
+                inputValue = (inputValue - 900);
+                OutputValue = (OutputValue + "CM");
             }
-
-            while (integer / 50 >= 1)
+            while (inputValue / 500 != 0)
             {
-                integer = integer - 50;
-                outPutString = outPutString + "I";
+                inputValue = (inputValue - 500);
+                OutputValue = (OutputValue + "D");
             }
-
-            while (integer / 10 >= 1)
+            while (inputValue / 400 != 0)
             {
-                integer = integer - 10;
-                outPutString = outPutString + "X";
+                inputValue = (inputValue - 400);
+                OutputValue = (OutputValue + "CD");
             }
-
-            while (integer / 5 >= 1)
+            while (inputValue / 100 != 0)
             {
-                integer = integer - 5;
-                outPutString = outPutString + "V";
+                inputValue = (inputValue - 100);
+                OutputValue = (OutputValue + "C");
             }
-
-            while (integer / 1 != 0)
+            while (inputValue / 90 != 0)
             {
-                integer = integer - 1;
-                outPutString = outPutString + "I";
+                inputValue = (inputValue - 90);
+                OutputValue = (OutputValue + "XC");
             }
+            while (inputValue / 50 != 0)
+            {
+                inputValue = (inputValue - 50);
+                OutputValue = (OutputValue + "L");
+            }
+            while (inputValue / 40 != 0)
+            {
+                inputValue = (inputValue - 40);
+                OutputValue = (OutputValue + "XL");
+            }
+            while (inputValue / 10 != 0)
+            {
 
-            return outPutString;
+                inputValue = (inputValue - 10);
+                OutputValue = (OutputValue + "X");
+            }
+            while (inputValue / 5 != 0)
+            {
+                if (inputValue == 9)
+                {
+                    inputValue = (inputValue - 9);
+                    OutputValue = (OutputValue + "IX");
+                }
+                else
+                {
+                    inputValue = (inputValue - 5);
+                    OutputValue = (OutputValue + "V");
+                }
+            }
+            while (inputValue / 1 != 0)
+            {
+                if (inputValue / 1 > 3)
+                {
+                    inputValue = (inputValue - 4);
+                    OutputValue = (OutputValue + "IV");
+                }
+                else
+                {
+                    inputValue = (inputValue - 1);
+                    OutputValue = (OutputValue + "I");
+                }
+            }
+            return OutputValue;
         }
 
         
