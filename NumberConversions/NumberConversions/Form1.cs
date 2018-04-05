@@ -17,62 +17,24 @@ namespace NumberConversions
             InitializeComponent();
         }
 
-        
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-            int counter = 1;
-            string conversion;
-
-            try
-            {
-                    while (counter <= 3999)
-                    {
-
-                        conversion = NumberConversion.IntegerToRoman(counter);
-                        listBox2.Items.Add(counter + " = " + conversion);
-
-                        counter = counter + 1;
-                    }
-                }
-                catch
-            {
-                MessageBox.Show("Unknown error occured");
-            }
-                
 
 
-            
-
-            
-        }
         private void button2_Click(object sender, EventArgs e)
         {
+            int counter = 3999;
+            string conversion;
+            string output;
+
+            while (counter >= 1)
+            {
+                conversion = NumberConversion.IntegerToRoman(counter);
+
+                output = conversion + " = " + counter;
+                listBox2.Items.Add(output);
+
+                counter = counter - 1;
+            }
             
-            int counter = 1;
-            string conversion2;
-
-            try
-            {
-
-
-
-
-
-                while (counter <= 3999)
-                {
-                    conversion2 = NumberConversion.IntegerToRoman(counter);
-                    listBox2.Items.Add(conversion2 + " = " + counter);
-                    counter = counter + 1;
-                }
-            }
-            catch
-            {
-
-                MessageBox.Show("an error occured");
-
-            }
 
         }
 
@@ -100,6 +62,11 @@ namespace NumberConversions
         {
             RomantoArabic.Form1 var = new RomantoArabic.Form1();
             var.Show();
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -8,3 +8,6 @@ C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\Arabi
 C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\ArabictoRoman\obj\Debug\ArabictoRoman.exe
 C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\ArabictoRoman\obj\Debug\ArabictoRoman.pdb
 C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\ArabictoRoman\obj\Debug\ArabictoRoman.csprojResolveAssemblyReference.cache
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\ArabictoRoman\bin\Debug\RomanToArabic2.exe
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\ArabictoRoman\bin\Debug\RomanToArabic2.pdb
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\ArabictoRoman\bin\Debug\RomanToArabic2.exe.config

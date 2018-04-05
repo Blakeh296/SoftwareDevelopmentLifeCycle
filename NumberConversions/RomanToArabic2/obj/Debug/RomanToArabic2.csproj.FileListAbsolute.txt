@@ -1,0 +1,10 @@
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomanToArabic2\obj\Debug\RomanToArabic2.Form1.resources
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomanToArabic2\obj\Debug\RomanToArabic2.Properties.Resources.resources
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomanToArabic2\obj\Debug\RomanToArabic2.csproj.GenerateResource.Cache
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomanToArabic2\obj\Debug\RomanToArabic2.csproj.CoreCompileInputs.cache
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomanToArabic2\bin\Debug\RomanToArabic2.exe.config
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomanToArabic2\bin\Debug\RomanToArabic2.exe
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomanToArabic2\bin\Debug\RomanToArabic2.pdb
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomanToArabic2\obj\Debug\RomanToArabic2.exe
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomanToArabic2\obj\Debug\RomanToArabic2.pdb
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomanToArabic2\obj\Debug\RomanToArabic2.csprojResolveAssemblyReference.cache

@@ -16,30 +16,52 @@ namespace RomantoArabic
         {
             InitializeComponent();
         }
-
+        // MMMCMXCIX
         private void button1_Click(object sender, EventArgs e)
         {
+            // Variable to hold Roman Numeral
             string Roman;
+            // Counter for if statement
             int counter;
+            // Output Arabic number
             int conversion;
 
-            try
+            try // Error handling
             {
 
+                //Store textbox in string variable
                 Roman = textBox1.Text.ToUpper();
+
+                // Store conversion in variable
                 conversion = RomantoInteger.RomanToInteger(Roman);
 
-                outPutLabel.BackColor = System.Drawing.Color.LightGreen;
-                outPutLabel.Text = Roman + " = " + conversion.ToString();
-
+                // Set IF Counter variable
                 counter = conversion;
-                listBox2.Items.Add(Roman + " = " + counter);
+
+                if (3999 >=counter) // Perform conversion
+                {
+                    // Change Label color to Green for successful !
+                    outPutLabel.BackColor = System.Drawing.Color.LightGreen;
+                    // Display original input RomanNumeral + " = " + Output Arabic
+                    outPutLabel.Text = Roman + " = " + conversion.ToString();
+
+                    // Add output to listbox to view later
+                    listBox2.Items.Add(Roman + " = " + conversion);
+                }
+                else // ERROR
+                {
+                    // Change output color to red
+                    outPutLabel.BackColor = System.Drawing.Color.Red;
+                    // display error message
+                    outPutLabel.Text = " Roman Numeral to Large";
+                }
                 
             }
-            catch
+            catch // ERROR
             {
-                
+                // Change output label color to RED
                 outPutLabel.BackColor = System.Drawing.Color.Red;
+                // ERROR Message
                 outPutLabel.Text = "Roman Numerals only";
 
             }
@@ -47,13 +69,29 @@ namespace RomantoArabic
 
         private void button2_Click(object sender, EventArgs e)
         {
+            // Reset all text values
             textBox1.Text = " ";
             outPutLabel.Text = " ";
+            // RESET label color
             outPutLabel.BackColor = System.Drawing.Color.LightGray;
+            // EMPTY LISTBOX
             listBox2.Items.Clear();
         }
 
         private void button3_Click(object sender, EventArgs e)
+        {
+            // Closes this form
+            this.Close();
+        }
+
+      
+        private void arabicToRomanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ArabicToRoman2.Form1 var = new ArabicToRoman2.Form1();
+            var.Show();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
         }

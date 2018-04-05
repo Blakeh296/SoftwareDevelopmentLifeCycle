@@ -7,3 +7,7 @@ C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\Roman
 C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomantoArabic\obj\Debug\RomantoArabic.csproj.CoreCompileInputs.cache
 C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomantoArabic\obj\Debug\RomantoArabic.exe
 C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomantoArabic\obj\Debug\RomantoArabic.pdb
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomantoArabic\obj\Debug\RomantoArabic.csprojResolveAssemblyReference.cache
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomantoArabic\bin\Debug\ArabicToRoman2.exe
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomantoArabic\bin\Debug\ArabicToRoman2.pdb
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomantoArabic\bin\Debug\ArabicToRoman2.exe.config

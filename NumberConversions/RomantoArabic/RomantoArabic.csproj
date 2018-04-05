@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArabicToRoman2\ArabicToRoman2.csproj">
+      <Project>{70114c6f-a782-4aef-aac2-9fe7c5a85b18}</Project>
+      <Name>ArabicToRoman2</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -14,3 +14,9 @@ C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\Numbe
 C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\obj\Debug\Home.csproj.CoreCompileInputs.cache
 C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\obj\Debug\NumberConversions.exe
 C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\obj\Debug\NumberConversions.pdb
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\bin\Debug\ArabicToRoman2.exe
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\bin\Debug\ArabicToRoman2.pdb
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\bin\Debug\ArabicToRoman2.exe.config
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\bin\Debug\RomanToArabic2.exe
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\bin\Debug\RomanToArabic2.pdb
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\bin\Debug\RomanToArabic2.exe.config

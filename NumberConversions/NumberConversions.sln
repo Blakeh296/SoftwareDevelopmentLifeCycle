@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomantoArabic", "RomantoAra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArabictoRoman", "ArabictoRoman\ArabictoRoman.csproj", "{40AFBEEF-F968-46E2-B1B2-BC2EC787553C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArabicToRoman2", "ArabicToRoman2\ArabicToRoman2.csproj", "{70114C6F-A782-4AEF-AAC2-9FE7C5A85B18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToArabic2", "RomanToArabic2\RomanToArabic2.csproj", "{8D59E378-81EB-4140-A06F-79EEA419FEDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{40AFBEEF-F968-46E2-B1B2-BC2EC787553C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40AFBEEF-F968-46E2-B1B2-BC2EC787553C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40AFBEEF-F968-46E2-B1B2-BC2EC787553C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70114C6F-A782-4AEF-AAC2-9FE7C5A85B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70114C6F-A782-4AEF-AAC2-9FE7C5A85B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70114C6F-A782-4AEF-AAC2-9FE7C5A85B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70114C6F-A782-4AEF-AAC2-9FE7C5A85B18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D59E378-81EB-4140-A06F-79EEA419FEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D59E378-81EB-4140-A06F-79EEA419FEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D59E378-81EB-4140-A06F-79EEA419FEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D59E378-81EB-4140-A06F-79EEA419FEDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
