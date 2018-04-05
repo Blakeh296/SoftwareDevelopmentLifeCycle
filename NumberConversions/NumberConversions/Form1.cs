@@ -17,57 +17,89 @@ namespace NumberConversions
             InitializeComponent();
         }
 
-        private void btnCalculate_Click(object sender, EventArgs e)
-        {
-            string text;
-            int conversion;
-           
-            try
-            {
-                
-                text = textBox1.Text.ToUpper();
-                conversion = NumberConversion.RomanToInteger(text);
-
-                outPutLabel.Text = conversion.ToString();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            
-            
-
-            
-        }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int integer;
+            
+            int counter = 1;
             string conversion;
 
             try
             {
-                integer = int.Parse(textBox1.Text.ToString());
-                conversion = NumberConversion.IntegerToRoman(integer);
+                    while (counter <= 3999)
+                    {
 
-                outPutLabel.Text = conversion.ToString();
-            }
+                        conversion = NumberConversion.IntegerToRoman(counter);
+                        listBox2.Items.Add(counter + " = " + conversion);
 
-            catch (Exception ex)
+                        counter = counter + 1;
+                    }
+                }
+                catch
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Unknown error occured");
             }
+                
+
+
+            
+
+            
         }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+            int counter = 1;
+            string conversion2;
+
+            try
+            {
+
+
+
+
+
+                while (counter <= 3999)
+                {
+                    conversion2 = NumberConversion.IntegerToRoman(counter);
+                    listBox2.Items.Add(conversion2 + " = " + counter);
+                    counter = counter + 1;
+                }
+            }
+            catch
+            {
+
+                MessageBox.Show("an error occured");
+
+            }
+
+        }
+
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-            textBox1.Text = " ";
-            outPutLabel.Text = " ";
+            
+            listBox2.Items.Clear();
+            
+            
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
+        }
+
+        private void arabicToRomanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ArabictoRoman.Form1 var = new ArabictoRoman.Form1();
+            var.Show();
+        }
+
+        private void romanToArabicToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RomantoArabic.Form1 var = new RomantoArabic.Form1();
+            var.Show();
         }
     }
 }

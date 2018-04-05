@@ -1,0 +1,10 @@
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\bin\Debug\NumberConversions.exe.config
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\bin\Debug\NumberConversions.exe
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\bin\Debug\NumberConversions.pdb
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\obj\Debug\NumberConversions.Form1.resources
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\obj\Debug\NumberConversions.Properties.Resources.resources
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\obj\Debug\RomantoInteger.csproj.GenerateResource.Cache
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\obj\Debug\RomantoInteger.csproj.CoreCompileInputs.cache
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\obj\Debug\NumberConversions.exe
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\obj\Debug\NumberConversions.pdb
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\NumberConversions\obj\Debug\RomantoInteger.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomantoArabic\bin\Debug\RomantoArabic.exe.config
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomantoArabic\bin\Debug\RomantoArabic.exe
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomantoArabic\bin\Debug\RomantoArabic.pdb
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomantoArabic\obj\Debug\RomantoArabic.Form1.resources
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomantoArabic\obj\Debug\RomantoArabic.Properties.Resources.resources
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomantoArabic\obj\Debug\RomantoArabic.csproj.GenerateResource.Cache
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomantoArabic\obj\Debug\RomantoArabic.csproj.CoreCompileInputs.cache
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomantoArabic\obj\Debug\RomantoArabic.exe
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\RomantoArabic\obj\Debug\RomantoArabic.pdb

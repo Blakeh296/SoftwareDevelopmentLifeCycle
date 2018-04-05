@@ -1,0 +1,10 @@
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\ArabictoRoman\bin\Debug\ArabictoRoman.exe.config
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\ArabictoRoman\bin\Debug\ArabictoRoman.exe
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\ArabictoRoman\bin\Debug\ArabictoRoman.pdb
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\ArabictoRoman\obj\Debug\ArabictoRoman.Form1.resources
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\ArabictoRoman\obj\Debug\ArabictoRoman.Properties.Resources.resources
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\ArabictoRoman\obj\Debug\ArabictoRoman.csproj.GenerateResource.Cache
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\ArabictoRoman\obj\Debug\ArabictoRoman.csproj.CoreCompileInputs.cache
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\ArabictoRoman\obj\Debug\ArabictoRoman.exe
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\ArabictoRoman\obj\Debug\ArabictoRoman.pdb
+C:\Users\Cyberadmin\Desktop\SoftwareDevelopmentLifeCycle\NumberConversions\ArabictoRoman\obj\Debug\ArabictoRoman.csprojResolveAssemblyReference.cache
