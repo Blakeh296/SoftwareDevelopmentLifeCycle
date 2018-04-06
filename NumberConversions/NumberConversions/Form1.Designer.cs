@@ -37,6 +37,7 @@
             this.arabicToRomanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.romanToArabicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -44,7 +45,7 @@
             // btnClear
             // 
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(13, 371);
+            this.btnClear.Location = new System.Drawing.Point(14, 405);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 9;
@@ -55,7 +56,7 @@
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(210, 371);
+            this.btnExit.Location = new System.Drawing.Point(211, 405);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 10;
@@ -66,7 +67,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(79, 27);
+            this.button2.Location = new System.Drawing.Point(80, 61);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(136, 24);
             this.button2.TabIndex = 14;
@@ -78,7 +79,7 @@
             // 
             this.groupBox3.Controls.Add(this.listBox2);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(13, 57);
+            this.groupBox3.Location = new System.Drawing.Point(14, 91);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(272, 308);
             this.groupBox3.TabIndex = 7;
@@ -129,11 +130,23 @@
             this.toolStripMenuItem1.Text = "&Exit App";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(0, 24);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(300, 34);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "Home : Click for all Conversions";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(300, 402);
+            this.ClientSize = new System.Drawing.Size(300, 436);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox3);
@@ -160,6 +173,7 @@
         private System.Windows.Forms.ToolStripMenuItem arabicToRomanToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem romanToArabicToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.Label label4;
     }
 }
 

@@ -1,0 +1,10 @@
+G:\C#\aw2012VendorNameandAddress\aw2012VendorNameandAddress\bin\Debug\aw2012VendorNameandAddress.exe.config
+G:\C#\aw2012VendorNameandAddress\aw2012VendorNameandAddress\bin\Debug\aw2012VendorNameandAddress.exe
+G:\C#\aw2012VendorNameandAddress\aw2012VendorNameandAddress\bin\Debug\aw2012VendorNameandAddress.pdb
+G:\C#\aw2012VendorNameandAddress\aw2012VendorNameandAddress\obj\Debug\aw2012VendorNameandAddress.csprojResolveAssemblyReference.cache
+G:\C#\aw2012VendorNameandAddress\aw2012VendorNameandAddress\obj\Debug\aw2012VendorNameandAddress.Form1.resources
+G:\C#\aw2012VendorNameandAddress\aw2012VendorNameandAddress\obj\Debug\aw2012VendorNameandAddress.Properties.Resources.resources
+G:\C#\aw2012VendorNameandAddress\aw2012VendorNameandAddress\obj\Debug\aw2012VendorNameandAddress.csproj.GenerateResource.Cache
+G:\C#\aw2012VendorNameandAddress\aw2012VendorNameandAddress\obj\Debug\aw2012VendorNameandAddress.csproj.CoreCompileInputs.cache
+G:\C#\aw2012VendorNameandAddress\aw2012VendorNameandAddress\obj\Debug\aw2012VendorNameandAddress.exe
+G:\C#\aw2012VendorNameandAddress\aw2012VendorNameandAddress\obj\Debug\aw2012VendorNameandAddress.pdb

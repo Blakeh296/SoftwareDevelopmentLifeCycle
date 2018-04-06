@@ -37,12 +37,13 @@
             this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label4 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(188, 165);
+            this.button3.Location = new System.Drawing.Point(188, 201);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 22;
@@ -52,7 +53,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(107, 165);
+            this.button2.Location = new System.Drawing.Point(107, 201);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 21;
@@ -64,7 +65,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(9, 106);
+            this.label2.Location = new System.Drawing.Point(9, 142);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(150, 16);
             this.label2.TabIndex = 20;
@@ -74,16 +75,16 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(9, 33);
+            this.label1.Location = new System.Drawing.Point(9, 69);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 16);
+            this.label1.Size = new System.Drawing.Size(154, 16);
             this.label1.TabIndex = 19;
-            this.label1.Text = "Type an Arabic number";
+            this.label1.Text = "Type an Arabic number :";
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(163, 36);
+            this.textBox1.Location = new System.Drawing.Point(163, 72);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 21);
             this.textBox1.TabIndex = 18;
@@ -92,7 +93,7 @@
             // 
             this.outPutLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.outPutLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outPutLabel.Location = new System.Drawing.Point(12, 132);
+            this.outPutLabel.Location = new System.Drawing.Point(12, 168);
             this.outPutLabel.Name = "outPutLabel";
             this.outPutLabel.Size = new System.Drawing.Size(249, 30);
             this.outPutLabel.TabIndex = 17;
@@ -100,7 +101,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(188, 70);
+            this.button1.Location = new System.Drawing.Point(188, 106);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 15;
@@ -126,11 +127,23 @@
             this.exitToolStripMenuItem.Text = "&Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(-4, 24);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(277, 35);
+            this.label4.TabIndex = 25;
+            this.label4.Text = "Arabic to Roman";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(271, 195);
+            this.ClientSize = new System.Drawing.Size(271, 235);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
@@ -159,6 +172,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.Label label4;
     }
 }
 
